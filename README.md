@@ -64,7 +64,6 @@
 
 # Command note
 ```bash
-docker-compose build --no-cache frontend
-docker-compose up -d
+docker-compose up --build -d
 docker-compose restart frontend
 ```
