@@ -1,8 +1,13 @@
 # JURC_Tabelog
 
 # Updates
-- v0.1 : TBD
-- v0.0 (250310): Init template structure done. 
+- v0.2 : TBD
+
+- v0.1 (250417): 
+	Convert to React due to an unsolvable platform dependency of Vue. Had the logo inplace and did some basic styling. Anything about frontend can start from here. Now switching attention to backend dev.
+
+- v0.0 (250310): 
+	Init template structure done. 
 
 # Features
 - Table Schemas
