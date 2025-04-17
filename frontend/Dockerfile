@@ -1,11 +1,17 @@
-FROM node:18
+FROM node:20-alpine
 
+# Set working directory
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+# Install dependencies first
+COPY package*.json ./
 RUN npm install
 
+# Copy rest of the app
 COPY . .
 
-CMD ["npm", "run", "dev"]
+# React runs on port 3000
+EXPOSE 3000
 
+# Start the React app
+CMD ["npm", "start"]
