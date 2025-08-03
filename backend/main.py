@@ -1,7 +1,8 @@
+# backend/main.py
 from fastapi import FastAPI
 
 app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Tabelog API!"}
+    return {"message": "Hello Paul, FastAPI + uv is ready!"}
