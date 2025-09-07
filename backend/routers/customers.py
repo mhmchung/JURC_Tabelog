@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from typing import List
 
 from database import get_db
-from models import Customer, AuthAccount
+from backend.models import Customer, AuthAccount
 from schemas import CustomerCreate, CustomerResponse, AuthAccountCreate
 
 router = APIRouter(
